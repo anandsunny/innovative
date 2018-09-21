@@ -1,0 +1,31 @@
+.navbar_bx {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.navbar_bx .cl {
+    display: inline-block;
+}
+.navbar_bx .brand {
+    width: 25%;
+}
+.navbar_bx .menu_bx{
+    width: 75%;
+}
+.navbar_bx .brand img {
+    width: 170px;
+    position: fixed;
+    top: 10px;
+}
+.navbar_bx .menu_bx ul { 
+    list-style-type: none;
+    margin-top: 50px;
+    float: right;
+    margin-right: 85px;
+}
+.navbar_bx .menu_bx ul li { float: left; }
+.navbar_bx .menu_bx ul li a {
+    padding: 13px;
+    color: white;
+    letter-spacing: 1px;
+}

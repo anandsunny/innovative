@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+<div id="slider_wrap" (mousemove)="mouseDrag($event)" >
+    <div class="item item1" [ngStyle]="1 === slcd_indx && {'width': '100%', 'background-position': bannerTrans, 'opacity': '1', 'transition': 'opacity .5s linear'} || {'width': '0%'}" >
+      <img src="assets/images/slider/mobApp.png" alt="image" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}">
+      <div class="content">
+          <h1>Leading  Software & Website development company in Indore</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat commodi natus tempore nulla
+             dolore nesciunt perferendis. Dolorum excepturi beatae ut minima distinctio omnis, soluta perferendis 
+             pariatur eligendi eaque inventore.</p>
+      </div>
+    </div> 
+    <div class="item item2" [ngStyle]="2 === slcd_indx && {'width': '100%', 'background-position': bannerTrans, 'opacity': '1', 'transition': 'opacity .5s linear'} || {'width': '0%'}" >
+      <img src="assets/images/slider/mobile2.png" alt="image" class="img1" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}" />
+      <div class="content">
+        <h1>WORK WITH US & FEEL THE DIFFERENCE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam explicabo, 
+          sunt ducimus quasi nesciunt aliquid libero, laborum aspernatur dolorum nihil quia maiores voluptatum 
+          delectus tenetur earum accusantium ratione voluptate molestiae harum neque repellendus labore omnis modi similique? 
+          Adipisci animi atque, nesciunt minus sed magnam earum repellendus consequatur a, impedit sunt?</p>
+      </div>
+    </div> 
+    <div class="item item3" [ngStyle]="3 === slcd_indx && {'width': '100%', 'background-position': bannerTrans, 'opacity': '1', 'transition': 'opacity .5s linear'} || {'width': '0%'}">
+      <img src="assets/images/slider/mobile3.png" alt="image" class="img1" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}" />
+      <div class="content">
+        <h2>WEB APPLICATIONS</h2>
+        <p>Are you looking for online ERP, HRM or any office management application?</p>
+      </div>
+    </div> 
+    <div class="item item4" [ngStyle]="4 === slcd_indx && {'width': '100%', 'background-position': bannerTrans, 'opacity': '1', 'transition': 'opacity .5s linear'} || {'width': '0%'}">
+      <!-- <img src="assets/images/slider/tab1.png" alt="image" class="img1" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}" /> -->
+      <div class="content">
+        <h1>BOOK A DOMAIN NAME</h1>
+        <p>With FREE Email, DNS, Theft Protection and lots more</p>
+      </div>
+    </div>
+</div>
+<div id="buttons">
+  <input type="radio" name="slide" class="button" (click)="changeSlide(1)" id="rd1" checked/><label for="rd1"></label>
+  <input type="radio" name="slide"  class="button" (click)="changeSlide(2)" id="rd2" /><label for="rd2"></label>
+  <input type="radio" name="slide"  class="button" (click)="changeSlide(3)" id="rd3" /><label for="rd3"></label>
+  <input type="radio" name="slide"  class="button" (click)="changeSlide(4)" id="rd4" /><label for="rd4"></label>
+</div>
