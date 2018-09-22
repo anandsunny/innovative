@@ -17,15 +17,49 @@
     position: fixed;
     top: 10px;
 }
-.navbar_bx .menu_bx ul { 
+.navbar_bx .menu_bx > ul { 
     list-style-type: none;
     margin-top: 50px;
     float: right;
     margin-right: 85px;
 }
-.navbar_bx .menu_bx ul li { float: left; }
-.navbar_bx .menu_bx ul li a {
+.navbar_bx .menu_bx ul > li { float: left; position: relative;}
+.navbar_bx .menu_bx ul li > a {
     padding: 13px;
     color: white;
+    cursor: pointer;
     letter-spacing: 1px;
+}
+.navbar_bx .menu_bx ul > li:hover ul {
+    opacity: 1;
+    top: 47px;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.navbar_bx .menu_bx ul li > ul{
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    width: 237px;
+    top: -500px;
+    border-radius: 4px;
+    opacity: 0;
+    padding: 0px !important;
+    overflow: hidden;
+    transition: top .5s, opacity 1s;
+}
+.navbar_bx .menu_bx ul li > ul > li {
+    width: 100%;
+}
+.navbar_bx .menu_bx ul li ul li > a {
+    color: #846f6f;
+    display: block;
+    font-size: 14px;
+    padding: 5px 30px !important;
+}
+
+.navbar_bx .menu_bx ul li ul li > a:hover {
+    background-color: aliceblue;
+    transition: background-color .5s;
+    cursor: pointer;
 }
