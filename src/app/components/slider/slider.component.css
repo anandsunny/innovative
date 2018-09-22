@@ -20,26 +20,30 @@
 }
 
 #slider_wrap .item1 {
-  background-image: url(https://cdn.jevelin.shufflehound.com/wp-content/uploads/2018/07/Background_2.jpg);
-  background-size: 150%;
-}
-#slider_wrap .item2 {
   background-image: url(/assets/images/slider/banner4.jpg);
   background-size: 120% 150%;
 }
+#slider_wrap .item2 {
+  background-image: url(/assets/images/slider/s6.jpg);
+  background-size: 110% 150%;
+}
 #slider_wrap .item3 {
-  background-image: url(/assets/images/slider/coffee.jpg);
-  background-size: 150% 100%;
+  background-image: url(/assets/images/slider/laptop1.png);
+  background-size: 130%;
 }
 #slider_wrap .item4 {
-  background-image: url(/assets/images/slider/banner3.jpg);
-  background-size: 140% 140%;
+  background-image: url(/assets/images/slider/s11.jpg);
+  background-size: 120%;
 }
 .item1 img {
   position: absolute;
   right: 10%; top: 10%;
 }
-
+#slider_wrap .item1 .img1 {
+  position: absolute;    
+  top: 43%; left: -16%;
+  width: 700px;
+}
 #buttons .button {
   visibility: hidden;
 }
@@ -66,39 +70,46 @@
   transition: box-shadow .5s;
 }
 
-#slider_wrap .item1 .content{
+/* #slider_wrap .item1 .content{
   position: absolute;
   top: 36%; left: 50px;
   width: 800px;
   color: white;
-}
+} */
 #slider_wrap .item1 .content h1 {
   font-size: 55px;
 }
+
 #slider_wrap .item2 .img1 {
-  position: absolute;    
-  top: 43%; left: -16%;
-  width: 700px;
+  position: absolute;
+  top: 18%; right: 5%;
+  width: 47%;
 }
 #slider_wrap .item2 .img2 {
   position: absolute;    
   top: 11%; left: 19%;
 }
-#slider_wrap .item2 .content {
+#slider_wrap .item1 .content {
   width: 65%;
   position: absolute;
   top: 30%; right: 5%;
   color: white;
 }
-#slider_wrap .item3 .img1 {
-  width: 500px;
+#slider_wrap .item2 .content {
+  width: 50%;
   position: absolute;
-  top: 20%; right: 20%;
+  top: 35%; left: 5%;
+  color: white;
+}
+#slider_wrap .item3 .img1 {
+  width: 67%;
+  position: absolute;
+  bottom: -10%; right: 10%;
 }
 #slider_wrap .item3 .content {
-  width: 600px;
+  width: 50%;
   position: absolute;
-  top: 45%; left: 5%;
+  top: 35%; right: 5%;
   color: white;
 }
 #slider_wrap .item4 .img1 {

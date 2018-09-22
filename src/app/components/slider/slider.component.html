@@ -1,7 +1,7 @@
 <app-navbar></app-navbar>
 <div id="slider_wrap" (mousemove)="mouseDrag($event)" >
     <div class="item item1" [ngStyle]="1 === slcd_indx && {'width': '100%', 'background-position': bannerTrans, 'opacity': '1', 'transition': 'opacity .5s linear'} || {'width': '0%'}" >
-      <img src="assets/images/slider/mobApp.png" alt="image" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}">
+      <img src="assets/images/slider/mobile2.png" class="img1" alt="image" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}">
       <div class="content">
           <h1>Leading  Software & Website development company in Indore</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat commodi natus tempore nulla
@@ -10,7 +10,7 @@
       </div>
     </div> 
     <div class="item item2" [ngStyle]="2 === slcd_indx && {'width': '100%', 'background-position': bannerTrans, 'opacity': '1', 'transition': 'opacity .5s linear'} || {'width': '0%'}" >
-      <img src="assets/images/slider/mobile2.png" alt="image" class="img1" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}" />
+      <!-- <img src="assets/images/slider/deskApp.png" alt="image" class="img1" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}" /> -->
       <div class="content">
         <h1>WORK WITH US & FEEL THE DIFFERENCE</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam explicabo, 
@@ -20,7 +20,7 @@
       </div>
     </div> 
     <div class="item item3" [ngStyle]="3 === slcd_indx && {'width': '100%', 'background-position': bannerTrans, 'opacity': '1', 'transition': 'opacity .5s linear'} || {'width': '0%'}">
-      <img src="assets/images/slider/mobile3.png" alt="image" class="img1" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}" />
+      <!-- <img src="assets/images/slider/banner2ch1.png" alt="image" class="img1" [ngStyle]="{'transform': trans, 'transition': '.2s linear'}" /> -->
       <div class="content">
         <h2>WEB APPLICATIONS</h2>
         <p>Are you looking for online ERP, HRM or any office management application?</p>
