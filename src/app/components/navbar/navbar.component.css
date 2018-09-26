@@ -1,7 +1,9 @@
+
 .navbar_bx {
     position: fixed;
     z-index: 1;
     width: 100%;
+    max-height: 500px;
 }
 .navbar_bx .cl {
     display: inline-block;

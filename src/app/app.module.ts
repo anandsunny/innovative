@@ -13,6 +13,7 @@ import { MissionVisionComponent } from './components/about-us/mission-vision/mis
 
 // modules
 import { Routing } from './app.routing';
+import { CconscrollmanuDirective } from './directives/cconscrollmanu.directive';
 
 
 
@@ -23,7 +24,8 @@ import { Routing } from './app.routing';
     NavbarComponent,
     HeaderComponent,
     FooterComponent,
-    MissionVisionComponent
+    MissionVisionComponent,
+    CconscrollmanuDirective
   ],
   imports: [
     BrowserModule,

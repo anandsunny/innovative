@@ -1,0 +1,16 @@
+#footer_div {
+    background: white;
+    margin: 0;
+    padding: 35px 25px;
+    margin-top: 25px;
+    border-top: 1px solid #fbf3f3;
+}
+#footer_div h3 { color: #7e7e7e; }
+#footer_div p { margin-bottom: 0; color: #c7bdbd; }
+#footer_div hr {
+    width: 80%;
+    border: 1px solid #c7bdbd;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
