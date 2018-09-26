@@ -6,7 +6,7 @@ import { MissionVisionComponent } from './components/about-us/mission-vision/mis
 
 const routes: Routes = [
     { path: '', component: SliderComponent },
-    { path: 'mission-and-vision', component: MissionVisionComponent }
+    { path: 'about-us/mission-and-vission', component: MissionVisionComponent }
 ];
 
 export const Routing = RouterModule.forRoot(routes);
