@@ -1,0 +1,40 @@
+/* main banner */
+#banner {
+    background-image: url(/assets/images/slider/slider4.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+#banner .banner_div {
+    height: 500px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+}
+#banner .banner_div h1 {
+    position: relative;
+    top: 50%;
+    color: white;
+    font-size: 73px;
+    font-weight: bold;
+}
+
+/* second heading */
+#scnd_head {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#scnd_head h4,
+#scnd_head i {
+    color: #c7bdbd;
+    letter-spacing: 10px;
+    font-size: 18px;
+}
+#scnd_head i {
+    font-size: 25px;
+}
+#scnd_head h1 {
+    color: #505050;
+    font-weight: 700;
+    letter-spacing: 3px;
+}

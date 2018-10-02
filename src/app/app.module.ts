@@ -14,6 +14,10 @@ import { MissionVisionComponent } from './components/about-us/mission-vision/mis
 // modules
 import { Routing } from './app.routing';
 import { CconscrollmanuDirective } from './directives/cconscrollmanu.directive';
+import { BannerComponent } from './components/banner/banner.component';
+import { CoreValueComponent } from './components/about-us/core-value/core-value.component';
+import { PhilosophyComponent } from './components/about-us/philosophy/philosophy.component';
+import { AdvantageComponent } from './components/about-us/advantage/advantage.component';
 
 
 
@@ -25,7 +29,11 @@ import { CconscrollmanuDirective } from './directives/cconscrollmanu.directive';
     HeaderComponent,
     FooterComponent,
     MissionVisionComponent,
-    CconscrollmanuDirective
+    CconscrollmanuDirective,
+    BannerComponent,
+    CoreValueComponent,
+    PhilosophyComponent,
+    AdvantageComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MissionVisionComponent implements OnInit {
 
+  banner_title = "MISSION & VISION";
   constructor() { }
 
   ngOnInit() {

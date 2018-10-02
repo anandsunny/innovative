@@ -1,43 +1,13 @@
-<<<<<<< Updated upstream
-=======
 
-/* main banner */
->>>>>>> Stashed changes
-#banner {
-    background-image: url(/assets/images/slider/slider4.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100%;
-}
-#banner .banner_div {
-    height: 500px;
-    text-align: center;
-<<<<<<< Updated upstream
-=======
-    background-color: rgba(0,0,0,.5);
->>>>>>> Stashed changes
-}
-#banner .banner_div h1 {
-    position: relative;
-    top: 50%;
-    color: white;
-    font-size: 73px;
-    font-weight: bold;
-}
+
 .content {
     margin: 0;
     margin-top: 100px;
-<<<<<<< Updated upstream
-    background: #F9F9F9;
-}
-.content .bx1 {padding: 50px;}
-.content .bx1 p { color: #c47474; font-size: 15px; line-height: 27px }
-=======
     background: #fdfdfd;
 }
 .content .bx1 {padding: 50px;}
 .content .bx1 p { color: #c7bdbd; font-size: 15px; line-height: 27px }
->>>>>>> Stashed changes
+
 .content .bx2 { 
     padding: 0; 
     background-image: url(/assets/images/slider/s2.jpg);
@@ -46,11 +16,7 @@
 }
 .content .bx2 img { width: 100%; height: 100%;}
 .content .bx1 h3 {
-<<<<<<< Updated upstream
-    color: #c47474;
-=======
     color: #c7bdbd;
->>>>>>> Stashed changes
     letter-spacing: 7px;
     border-bottom: 2px solid;
     width: 200px;
@@ -61,28 +27,5 @@
     font-size: 35px;
     margin-bottom: 21px;
 }
-<<<<<<< Updated upstream
-=======
 
 
-/* second heading */
-#scnd_head {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-#scnd_head h4,
-#scnd_head i {
-    color: #c7bdbd;
-    letter-spacing: 10px;
-    font-size: 18px;
-}
-#scnd_head i {
-    font-size: 25px;
-}
-#scnd_head h1 {
-    color: #505050;
-    font-weight: 700;
-    letter-spacing: 3px;
-}
->>>>>>> Stashed changes

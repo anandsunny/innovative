@@ -65,3 +65,14 @@
     transition: background-color .5s;
     cursor: pointer;
 }
+.manuBg {
+    background: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f7e2e2;
+    transition: all .5s linear;
+}
+
+.manuBg ul li a {
+    color: black !important;
+    transition: all .5s;
+}
