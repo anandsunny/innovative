@@ -18,6 +18,8 @@ import { BannerComponent } from './components/banner/banner.component';
 import { CoreValueComponent } from './components/about-us/core-value/core-value.component';
 import { PhilosophyComponent } from './components/about-us/philosophy/philosophy.component';
 import { AdvantageComponent } from './components/about-us/advantage/advantage.component';
+import { MethodologyComponent } from './components/about-us/methodology/methodology.component';
+import { CommitmentComponent } from './components/about-us/commitment/commitment.component';
 
 
 
@@ -33,7 +35,9 @@ import { AdvantageComponent } from './components/about-us/advantage/advantage.co
     BannerComponent,
     CoreValueComponent,
     PhilosophyComponent,
-    AdvantageComponent
+    AdvantageComponent,
+    MethodologyComponent,
+    CommitmentComponent
   ],
   imports: [
     BrowserModule,

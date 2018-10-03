@@ -5,11 +5,10 @@
     margin-top: 25px;
     border-top: 1px solid #fbf3f3;
 }
-#footer_div h3 { color: #7e7e7e; }
-#footer_div p { margin-bottom: 0; color: #c7bdbd; }
+#footer_div p { margin-bottom: 0; color: #616161; }
 #footer_div hr {
     width: 80%;
-    border: 1px solid #c7bdbd;
+    border: 1px solid;
     margin: 0;
     margin-top: 10px;
     margin-bottom: 15px;

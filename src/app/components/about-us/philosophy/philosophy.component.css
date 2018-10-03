@@ -1,4 +1,8 @@
-.container {
+.row { margin: 0 }
+.row .col-md-6 { padding: 0 }
+.row .col-md-6 img { width: 100% }
+.row .col-md-6 .bx1 {
+    width: 80%;
+    margin: 35px auto;
     text-align: justify;
-    color: #8d8d8d
 }

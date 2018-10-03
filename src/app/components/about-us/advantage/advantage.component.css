@@ -1,4 +1,55 @@
+/* main banner */
+#banner {
+    background-image: url(/assets/images/slider/slider4.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+#banner .banner_div {
+    height: 900px;
+    background-color: rgba(0,0,0,.5);
+}
+#banner .banner_div .content {
+    width: 80%;
+    position: relative;
+    top: 22%; left: 10%;
+    color: white;
+    text-align: center;
+}
 
+#banner .banner_div .content h1 {
+    font-size: 73px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    letter-spacing: 7px;
+}
+#banner .banner_div .content p {
+    font-size: 30px;
+}
+
+/* second heading */
+#scnd_head {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#scnd_head h4,
+#scnd_head i {
+    color: #c7bdbd;
+    letter-spacing: 10px;
+    font-size: 18px;
+}
+#scnd_head i {
+    font-size: 25px;
+}
+#scnd_head h1 {
+    color: #505050;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+
+/* content page */
 .container .row .col-md-6 p,
 .container .row .col-md-12 ol li {
     color: #8d8d8d;
@@ -7,7 +58,7 @@
 }
 .container .row .col-md-6 p span {
     font-size: 22px;
-    color: #505050;
+    color: #ca1c14;
     margin-right: 2px;
     font-weight: bold;
 } 
@@ -16,7 +67,103 @@
     padding-top: 20px;
     border-bottom: 1px solid #ccc;
 }
-.container .row .col-md-12 h3 {
-    margin-bottom: 10px;
+
+#tab {
+    margin: 0;
+    height: 289px;
 }
-.container .row .col-md-12 ol li { margin-bottom: 5px; }
+#tab .col-sm-3 {
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s linear;
+}
+#tab .col-sm-3:hover {
+    background-size: 110% 110%;
+}
+#tab .col-sm-3 > .bx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    transition: opacity .5s linear;
+}
+#tab .col-sm-3:hover > .bx {
+    opacity: 1;
+}
+#tab .col-sm-3 > .bx .inner {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    margin-top: 11%;
+}
+#tab .col-sm-3 > .bx .inner > i {
+    font-size: 77px;
+}
+.container .scnd_h {
+    color: #505050;
+    margin-bottom: 42px;
+}
+#tab .col-sm-3 > .bx .inner:hover > i {
+    color: #ca1c14;
+    transition: .5s ease-in-out
+}
+
+#sctn {
+    height: 500px;
+    margin: 0;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#sctn .c_bx  {
+    background-image: url(/assets/images/victory.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#sctn .col-md-6 .head {
+    text-align: center;
+    margin-bottom: 39px;
+    margin-top: 50px;
+}
+#sctn .col-md-6 .head h3 {
+    color: #8d8d8d;
+    letter-spacing: 3px;
+}
+#sctn .col-md-6 .head h1 {
+    color: #505050;
+}
+
+#sctn .col-md-6 p {
+    color: #8d8d8d;
+    text-align: justify;
+    margin: 20px;
+}
+#sctn .col-md-6 .head i {
+    color: #8d8d8d;
+    padding-right: 5px;
+}
+#sctn .col-md-6 .head h1 {
+    position: relative;
+}
+
+#sctn .col-md-6 .head h1::before,
+#sctn .col-md-6 .head h1::after {
+    position: absolute;
+    width: 200px; height: 1px;
+    content: "";
+    background-color: #8d8d8d;
+    top: 68px;
+}
+#sctn .col-md-6 .head h1::before {
+    left: 93px;
+}
+#sctn .col-md-6 .head h1::after {
+ right: 97px;
+}
+

@@ -1,0 +1,7 @@
+.container p,
+.container ol > li {
+    color: #c7bdbd;
+    margin: 8px 0;
+}
+.container > b { color: #505050 }
+
